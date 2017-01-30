@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2229A8C51E3EE54600BFCA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8C41E3EE54600BFCA6D /* AppDelegate.swift */; };
+		2229A8C71E3EE54600BFCA6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8C61E3EE54600BFCA6D /* ViewController.swift */; };
+		2229A8CA1E3EE54600BFCA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229A8C81E3EE54600BFCA6D /* Main.storyboard */; };
+		2229A8CC1E3EE54600BFCA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2229A8CB1E3EE54600BFCA6D /* Assets.xcassets */; };
+		2229A8CF1E3EE54600BFCA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229A8CD1E3EE54600BFCA6D /* LaunchScreen.storyboard */; };
+		2229A8DA1E3EE54600BFCA6D /* MattronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8D91E3EE54600BFCA6D /* MattronomeTests.swift */; };
+		2229A8E61E3EE5D700BFCA6D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8E51E3EE5D700BFCA6D /* Music.swift */; };
+		2229A8E81E3EE7F100BFCA6D /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8E71E3EE7F100BFCA6D /* Metronome.swift */; };
+		2229A8EA1E3EF6FA00BFCA6D /* MetronomeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8E91E3EF6FA00BFCA6D /* MetronomeLogger.swift */; };
+		2229A8F11E3EFD6100BFCA6D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229A8EF1E3EFD6100BFCA6D /* Interface.storyboard */; };
+		2229A8F31E3EFD6100BFCA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2229A8F21E3EFD6100BFCA6D /* Assets.xcassets */; };
+		2229A8FA1E3EFD6100BFCA6D /* WatchMattronome Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2229A8F91E3EFD6100BFCA6D /* WatchMattronome Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2229A9011E3EFD6100BFCA6D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A9001E3EFD6100BFCA6D /* InterfaceController.swift */; };
+		2229A9031E3EFD6100BFCA6D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A9021E3EFD6100BFCA6D /* ExtensionDelegate.swift */; };
+		2229A9051E3EFD6100BFCA6D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A9041E3EFD6100BFCA6D /* NotificationController.swift */; };
+		2229A9071E3EFD6100BFCA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2229A9061E3EFD6100BFCA6D /* Assets.xcassets */; };
+		2229A90B1E3EFD6100BFCA6D /* WatchMattronome.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2229A8ED1E3EFD6100BFCA6D /* WatchMattronome.app */; };
+		2229A9151E3F13CC00BFCA6D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8E51E3EE5D700BFCA6D /* Music.swift */; };
+		2229A9161E3F13D200BFCA6D /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8E71E3EE7F100BFCA6D /* Metronome.swift */; };
+		2229A9171E3F13D200BFCA6D /* MetronomeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229A8E91E3EF6FA00BFCA6D /* MetronomeLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2229A8D61E3EE54600BFCA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229A8B91E3EE54500BFCA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229A8C01E3EE54600BFCA6D;
+			remoteInfo = Mattronome;
+		};
+		2229A8FB1E3EFD6100BFCA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229A8B91E3EE54500BFCA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229A8F81E3EFD6100BFCA6D;
+			remoteInfo = "WatchMattronome Extension";
+		};
+		2229A9091E3EFD6100BFCA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229A8B91E3EE54500BFCA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229A8EC1E3EFD6100BFCA6D;
+			remoteInfo = WatchMattronome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2229A90F1E3EFD6100BFCA6D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2229A8FA1E3EFD6100BFCA6D /* WatchMattronome Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A9131E3EFD6100BFCA6D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2229A90B1E3EFD6100BFCA6D /* WatchMattronome.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2229A8C11E3EE54600BFCA6D /* Mattronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mattronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229A8C41E3EE54600BFCA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2229A8C61E3EE54600BFCA6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2229A8C91E3EE54600BFCA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2229A8CB1E3EE54600BFCA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2229A8CE1E3EE54600BFCA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2229A8D01E3EE54600BFCA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229A8D51E3EE54600BFCA6D /* MattronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MattronomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229A8D91E3EE54600BFCA6D /* MattronomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattronomeTests.swift; sourceTree = "<group>"; };
+		2229A8DB1E3EE54600BFCA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229A8E51E3EE5D700BFCA6D /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		2229A8E71E3EE7F100BFCA6D /* Metronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		2229A8E91E3EF6FA00BFCA6D /* MetronomeLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeLogger.swift; sourceTree = "<group>"; };
+		2229A8ED1E3EFD6100BFCA6D /* WatchMattronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMattronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229A8F01E3EFD6100BFCA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2229A8F21E3EFD6100BFCA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2229A8F41E3EFD6100BFCA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229A8F91E3EFD6100BFCA6D /* WatchMattronome Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchMattronome Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229A8FF1E3EFD6100BFCA6D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2229A9001E3EFD6100BFCA6D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2229A9021E3EFD6100BFCA6D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2229A9041E3EFD6100BFCA6D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2229A9061E3EFD6100BFCA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2229A9081E3EFD6100BFCA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2229A8BE1E3EE54600BFCA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8D21E3EE54600BFCA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8F61E3EFD6100BFCA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2229A8B81E3EE54500BFCA6D = {
+			isa = PBXGroup;
+			children = (
+				2229A8C31E3EE54600BFCA6D /* Mattronome */,
+				2229A8D81E3EE54600BFCA6D /* MattronomeTests */,
+				2229A8EE1E3EFD6100BFCA6D /* WatchMattronome */,
+				2229A8FD1E3EFD6100BFCA6D /* WatchMattronome Extension */,
+				2229A8C21E3EE54600BFCA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2229A8C21E3EE54600BFCA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2229A8C11E3EE54600BFCA6D /* Mattronome.app */,
+				2229A8D51E3EE54600BFCA6D /* MattronomeTests.xctest */,
+				2229A8ED1E3EFD6100BFCA6D /* WatchMattronome.app */,
+				2229A8F91E3EFD6100BFCA6D /* WatchMattronome Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2229A8C31E3EE54600BFCA6D /* Mattronome */ = {
+			isa = PBXGroup;
+			children = (
+				2229A8E41E3EE5BC00BFCA6D /* Model */,
+				2229A8C41E3EE54600BFCA6D /* AppDelegate.swift */,
+				2229A8C61E3EE54600BFCA6D /* ViewController.swift */,
+				2229A8C81E3EE54600BFCA6D /* Main.storyboard */,
+				2229A8CB1E3EE54600BFCA6D /* Assets.xcassets */,
+				2229A8CD1E3EE54600BFCA6D /* LaunchScreen.storyboard */,
+				2229A8D01E3EE54600BFCA6D /* Info.plist */,
+			);
+			path = Mattronome;
+			sourceTree = "<group>";
+		};
+		2229A8D81E3EE54600BFCA6D /* MattronomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2229A8D91E3EE54600BFCA6D /* MattronomeTests.swift */,
+				2229A8DB1E3EE54600BFCA6D /* Info.plist */,
+			);
+			path = MattronomeTests;
+			sourceTree = "<group>";
+		};
+		2229A8E41E3EE5BC00BFCA6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2229A8E51E3EE5D700BFCA6D /* Music.swift */,
+				2229A8E71E3EE7F100BFCA6D /* Metronome.swift */,
+				2229A8E91E3EF6FA00BFCA6D /* MetronomeLogger.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2229A8EE1E3EFD6100BFCA6D /* WatchMattronome */ = {
+			isa = PBXGroup;
+			children = (
+				2229A8EF1E3EFD6100BFCA6D /* Interface.storyboard */,
+				2229A8F21E3EFD6100BFCA6D /* Assets.xcassets */,
+				2229A8F41E3EFD6100BFCA6D /* Info.plist */,
+			);
+			path = WatchMattronome;
+			sourceTree = "<group>";
+		};
+		2229A8FD1E3EFD6100BFCA6D /* WatchMattronome Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2229A9001E3EFD6100BFCA6D /* InterfaceController.swift */,
+				2229A9021E3EFD6100BFCA6D /* ExtensionDelegate.swift */,
+				2229A9041E3EFD6100BFCA6D /* NotificationController.swift */,
+				2229A9061E3EFD6100BFCA6D /* Assets.xcassets */,
+				2229A9081E3EFD6100BFCA6D /* Info.plist */,
+				2229A8FE1E3EFD6100BFCA6D /* Supporting Files */,
+			);
+			path = "WatchMattronome Extension";
+			sourceTree = "<group>";
+		};
+		2229A8FE1E3EFD6100BFCA6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2229A8FF1E3EFD6100BFCA6D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2229A8C01E3EE54600BFCA6D /* Mattronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229A8DE1E3EE54600BFCA6D /* Build configuration list for PBXNativeTarget "Mattronome" */;
+			buildPhases = (
+				2229A8BD1E3EE54600BFCA6D /* Sources */,
+				2229A8BE1E3EE54600BFCA6D /* Frameworks */,
+				2229A8BF1E3EE54600BFCA6D /* Resources */,
+				2229A9131E3EFD6100BFCA6D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229A90A1E3EFD6100BFCA6D /* PBXTargetDependency */,
+			);
+			name = Mattronome;
+			productName = Mattronome;
+			productReference = 2229A8C11E3EE54600BFCA6D /* Mattronome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2229A8D41E3EE54600BFCA6D /* MattronomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229A8E11E3EE54600BFCA6D /* Build configuration list for PBXNativeTarget "MattronomeTests" */;
+			buildPhases = (
+				2229A8D11E3EE54600BFCA6D /* Sources */,
+				2229A8D21E3EE54600BFCA6D /* Frameworks */,
+				2229A8D31E3EE54600BFCA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229A8D71E3EE54600BFCA6D /* PBXTargetDependency */,
+			);
+			name = MattronomeTests;
+			productName = MattronomeTests;
+			productReference = 2229A8D51E3EE54600BFCA6D /* MattronomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2229A8EC1E3EFD6100BFCA6D /* WatchMattronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229A9101E3EFD6100BFCA6D /* Build configuration list for PBXNativeTarget "WatchMattronome" */;
+			buildPhases = (
+				2229A8EB1E3EFD6100BFCA6D /* Resources */,
+				2229A90F1E3EFD6100BFCA6D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229A8FC1E3EFD6100BFCA6D /* PBXTargetDependency */,
+			);
+			name = WatchMattronome;
+			productName = WatchMattronome;
+			productReference = 2229A8ED1E3EFD6100BFCA6D /* WatchMattronome.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2229A8F81E3EFD6100BFCA6D /* WatchMattronome Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229A90C1E3EFD6100BFCA6D /* Build configuration list for PBXNativeTarget "WatchMattronome Extension" */;
+			buildPhases = (
+				2229A8F51E3EFD6100BFCA6D /* Sources */,
+				2229A8F61E3EFD6100BFCA6D /* Frameworks */,
+				2229A8F71E3EFD6100BFCA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchMattronome Extension";
+			productName = "WatchMattronome Extension";
+			productReference = 2229A8F91E3EFD6100BFCA6D /* WatchMattronome Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2229A8B91E3EE54500BFCA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mmn;
+				TargetAttributes = {
+					2229A8C01E3EE54600BFCA6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CLY266LCNG;
+						ProvisioningStyle = Automatic;
+					};
+					2229A8D41E3EE54600BFCA6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CLY266LCNG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2229A8C01E3EE54600BFCA6D;
+					};
+					2229A8EC1E3EFD6100BFCA6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CLY266LCNG;
+						ProvisioningStyle = Automatic;
+					};
+					2229A8F81E3EFD6100BFCA6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CLY266LCNG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2229A8BC1E3EE54500BFCA6D /* Build configuration list for PBXProject "Mattronome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2229A8B81E3EE54500BFCA6D;
+			productRefGroup = 2229A8C21E3EE54600BFCA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2229A8C01E3EE54600BFCA6D /* Mattronome */,
+				2229A8D41E3EE54600BFCA6D /* MattronomeTests */,
+				2229A8EC1E3EFD6100BFCA6D /* WatchMattronome */,
+				2229A8F81E3EFD6100BFCA6D /* WatchMattronome Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2229A8BF1E3EE54600BFCA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229A8CF1E3EE54600BFCA6D /* LaunchScreen.storyboard in Resources */,
+				2229A8CC1E3EE54600BFCA6D /* Assets.xcassets in Resources */,
+				2229A8CA1E3EE54600BFCA6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8D31E3EE54600BFCA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8EB1E3EFD6100BFCA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229A8F31E3EFD6100BFCA6D /* Assets.xcassets in Resources */,
+				2229A8F11E3EFD6100BFCA6D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8F71E3EFD6100BFCA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229A9071E3EFD6100BFCA6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2229A8BD1E3EE54600BFCA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229A8E81E3EE7F100BFCA6D /* Metronome.swift in Sources */,
+				2229A8C71E3EE54600BFCA6D /* ViewController.swift in Sources */,
+				2229A8C51E3EE54600BFCA6D /* AppDelegate.swift in Sources */,
+				2229A8EA1E3EF6FA00BFCA6D /* MetronomeLogger.swift in Sources */,
+				2229A8E61E3EE5D700BFCA6D /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8D11E3EE54600BFCA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229A8DA1E3EE54600BFCA6D /* MattronomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229A8F51E3EFD6100BFCA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229A9161E3F13D200BFCA6D /* Metronome.swift in Sources */,
+				2229A9051E3EFD6100BFCA6D /* NotificationController.swift in Sources */,
+				2229A9171E3F13D200BFCA6D /* MetronomeLogger.swift in Sources */,
+				2229A9031E3EFD6100BFCA6D /* ExtensionDelegate.swift in Sources */,
+				2229A9011E3EFD6100BFCA6D /* InterfaceController.swift in Sources */,
+				2229A9151E3F13CC00BFCA6D /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2229A8D71E3EE54600BFCA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229A8C01E3EE54600BFCA6D /* Mattronome */;
+			targetProxy = 2229A8D61E3EE54600BFCA6D /* PBXContainerItemProxy */;
+		};
+		2229A8FC1E3EFD6100BFCA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229A8F81E3EFD6100BFCA6D /* WatchMattronome Extension */;
+			targetProxy = 2229A8FB1E3EFD6100BFCA6D /* PBXContainerItemProxy */;
+		};
+		2229A90A1E3EFD6100BFCA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229A8EC1E3EFD6100BFCA6D /* WatchMattronome */;
+			targetProxy = 2229A9091E3EFD6100BFCA6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2229A8C81E3EE54600BFCA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229A8C91E3EE54600BFCA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2229A8CD1E3EE54600BFCA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229A8CE1E3EE54600BFCA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2229A8EF1E3EFD6100BFCA6D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229A8F01E3EFD6100BFCA6D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2229A8DC1E3EE54600BFCA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2229A8DD1E3EE54600BFCA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2229A8DF1E3EE54600BFCA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				INFOPLIST_FILE = Mattronome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.Mattronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2229A8E01E3EE54600BFCA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				INFOPLIST_FILE = Mattronome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.Mattronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2229A8E21E3EE54600BFCA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				INFOPLIST_FILE = MattronomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.MattronomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mattronome.app/Mattronome";
+			};
+			name = Debug;
+		};
+		2229A8E31E3EE54600BFCA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				INFOPLIST_FILE = MattronomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.MattronomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mattronome.app/Mattronome";
+			};
+			name = Release;
+		};
+		2229A90D1E3EFD6100BFCA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				INFOPLIST_FILE = "WatchMattronome Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.Mattronome.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		2229A90E1E3EFD6100BFCA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				INFOPLIST_FILE = "WatchMattronome Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.Mattronome.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		2229A9111E3EFD6100BFCA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				IBSC_MODULE = WatchMattronome_Extension;
+				INFOPLIST_FILE = WatchMattronome/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.Mattronome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		2229A9121E3EFD6100BFCA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLY266LCNG;
+				IBSC_MODULE = WatchMattronome_Extension;
+				INFOPLIST_FILE = WatchMattronome/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmn.Mattronome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2229A8BC1E3EE54500BFCA6D /* Build configuration list for PBXProject "Mattronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229A8DC1E3EE54600BFCA6D /* Debug */,
+				2229A8DD1E3EE54600BFCA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2229A8DE1E3EE54600BFCA6D /* Build configuration list for PBXNativeTarget "Mattronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229A8DF1E3EE54600BFCA6D /* Debug */,
+				2229A8E01E3EE54600BFCA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229A8E11E3EE54600BFCA6D /* Build configuration list for PBXNativeTarget "MattronomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229A8E21E3EE54600BFCA6D /* Debug */,
+				2229A8E31E3EE54600BFCA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229A90C1E3EFD6100BFCA6D /* Build configuration list for PBXNativeTarget "WatchMattronome Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229A90D1E3EFD6100BFCA6D /* Debug */,
+				2229A90E1E3EFD6100BFCA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229A9101E3EFD6100BFCA6D /* Build configuration list for PBXNativeTarget "WatchMattronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229A9111E3EFD6100BFCA6D /* Debug */,
+				2229A9121E3EFD6100BFCA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2229A8B91E3EE54500BFCA6D /* Project object */;
+}
