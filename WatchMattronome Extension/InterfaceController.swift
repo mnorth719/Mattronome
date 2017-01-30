@@ -25,8 +25,15 @@ class InterfaceController: WKInterfaceController {
     //MARK: - Boiler Plate
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
+        updateCountLabel(withString: "Go!")
         
         // Configure interface objects here.
+        
+    }
+    
+    override func willActivate() {
+        // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
         let timeSig = TimeSignature(beatsPerMeasure: 4, notesPerBeat: 1)
         let speed = MusicSpeed(timeSignature: timeSig, beatsPerMinute: 120)
         metronome = Metronome()
@@ -35,14 +42,12 @@ class InterfaceController: WKInterfaceController {
 
     }
     
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-    
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+        metronome?.stopCounting()
+        metronome = nil
+        updateCountLabel(withString: "Go!")
     }
     
     //MARK: - PULSE
